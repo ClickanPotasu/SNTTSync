@@ -1,5 +1,5 @@
 ﻿using Spectre.Console;
-using FikaSync;
+using SNTTSync;
 
 class Program
 {
@@ -103,6 +103,6 @@ class Program
     static void PrintHeader(Config config)
     {
         string v = Logger.IsDebugEnabled ? "DEBUG" : "";
-        Logger.Info($"[white on darkcyan] FikaSync v{config.AppVersion} {v} \n[/]");
+        Logger.Info($"[white on darkcyan] SNTT Sync for 4.1.6 version | v{config.AppVersion} {v} \n[/]");
     }
 }

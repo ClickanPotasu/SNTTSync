@@ -1,14 +1,14 @@
 using System.Diagnostics;
 using Spectre.Console;
 
-namespace FikaSync;
+namespace SNTTSync;
 
 public class Updater
 {
     private readonly GitHubClient _client;
     private readonly Config _config;
     
-    private const string UpdateRepo = "fanteeek/fikasync";
+    private const string UpdateRepo = "ClickanPotasu/SNTTSync";
 
     public Updater(GitHubClient client, Config config)
     {

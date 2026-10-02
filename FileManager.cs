@@ -3,7 +3,7 @@ using SharpCompress.Archives.SevenZip;
 using SharpCompress.Common;
 using SharpCompress.Readers;
 
-namespace FikaSync;
+namespace SNTTSync;
 
 public static class FileManager
 {

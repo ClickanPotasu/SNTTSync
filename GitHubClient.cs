@@ -4,7 +4,7 @@ using System.Text;
 using System.Text.Json;
 using System.Text.Json.Nodes;
 
-namespace FikaSync;
+namespace SNTTSync;
 
 public class GitHubClient
 {
@@ -14,7 +14,7 @@ public class GitHubClient
     {
         _client = new HttpClient();
         _client.BaseAddress = new Uri("https://api.github.com");
-        _client.DefaultRequestHeaders.UserAgent.Add(new ProductInfoHeaderValue("FikaSync", $"{appVersion}"));
+        _client.DefaultRequestHeaders.UserAgent.Add(new ProductInfoHeaderValue("SNTTSync", $"{appVersion}"));
         _client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("token", token);
         _client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/vnd.github.v3+json"));
     }
@@ -49,7 +49,7 @@ public class GitHubClient
         {
             string requestUri = $"/repos/{owner}/{repo}/contents/README.md";
 
-            string content = "# FikaSync Storage\nThis repository is used to store game profiles.";
+            string content = "# SNTTSync Storage\nThis repository is used to store game profiles.";
             string base64Content = Convert.ToBase64String(Encoding.UTF8.GetBytes(content));
 
             var payload = new

@@ -1,6 +1,6 @@
 using Spectre.Console;
 
-namespace FikaSync;
+namespace SNTTSync;
 
 public static class Logger
 {
@@ -17,7 +17,7 @@ public static class Logger
             if (!Directory.Exists(logDir))
                 Directory.CreateDirectory(logDir);
 
-            _logFilePath = Path.Combine(logDir, "fikasync.log");
+            _logFilePath = Path.Combine(logDir, "snttsync.log");
 
             File.WriteAllText(_logFilePath, $"--- Log Started: {DateTime.Now} ---\n");
         }

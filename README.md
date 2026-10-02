@@ -1,11 +1,11 @@
-# FikaSync
+# SNTTSync
 
 ![C#](https://img.shields.io/badge/C%23-239120?logo=csharp&logoColor=white)
 ![.NET 9.0](https://img.shields.io/badge/.NET%209.0-512BD4?logo=dotnet&logoColor=white)
 ![Platform](https://img.shields.io/badge/Windows-0078D6?logo=windows&logoColor=white)
 ![License](https://img.shields.io/badge/License-MIT-yellow.svg)
 
-**FikaSync** is an automated tool designed for the **Fika Project** (a multiplayer mod for **SPT Tarkov**). It allows you and your friends to seamlessly synchronize game profiles via a private GitHub repository.
+**SNTTSync** is an automated tool designed for the **Fika Project** (a multiplayer mod for **SPT Tushonka**). It allows you and your friends to seamlessly synchronize game profiles via a private GitHub repository.
 
 ## Features
 
@@ -23,7 +23,7 @@
 ## Getting Started
 
 ### 1. Installation
-Download the latest `FikaSync.exe` from the [Releases](https://github.com/fanteeek/fika-profiles-sync/releases) page.
+Download the latest `SNTTSync.exe` from the [Releases](https://github.com/ClickanPotasu/SNTTSync/releases) page.
 **Important:** Place the executable inside your **root game folder** (right next to `EscapeFromTarkov.exe`).
 
 ### 2. Configuration
@@ -39,7 +39,7 @@ REPO_URL=https://github.com/YourUsername/Your-Repo-Name
 
 ## Usage
 
-1.  Run `FikaSync.exe`.
+1.  Run `SNTTSync.exe`.
 2.  Wait for the tool to sync profiles and launch the server.
 3.  Play the game!
 4.  When you are done playing, close the game and **press [ENTER]** in the FikaSync console window to upload your progress to the repository.
@@ -51,7 +51,7 @@ If you want to modify the code or build it yourself:
 1.  Install **.NET 9.0 SDK**.
 2.  Clone the repository:
     ```bash
-    git clone https://github.com/fanteeek/fika-profiles-sync.git
+    git clone https://github.com/ClickanPotasu/SNTTSync.git
     cd fika-profiles-sync
     ```
 3.  Run via terminal:

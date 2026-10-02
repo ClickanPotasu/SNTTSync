@@ -3,14 +3,14 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>net9.0</TargetFramework>
-    <RootNamespace>FikaSync</RootNamespace>
+    <RootNamespace>SNTTSync</RootNamespace>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <Version>0.4.0</Version>
-    <Authors>fanteeek</Authors>
-    <Product>FikaSync</Product>
-    <AssemblyName>FikaSync</AssemblyName>
-    <ApplicationIcon>fikasync.ico</ApplicationIcon>
+    <Version>0.1.0</Version>
+    <Authors>ClickanPotasu</Authors>
+    <Product>SNTTSync</Product>
+    <AssemblyName>SNTTSync</AssemblyName>
+    <ApplicationIcon>snttsync.ico</ApplicationIcon>
   </PropertyGroup>
 
   <ItemGroup>

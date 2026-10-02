@@ -4,7 +4,7 @@ using System.Text;
 using DotNetEnv;
 using Spectre.Console;
 
-namespace FikaSync;
+namespace SNTTSync;
 
 public class Config
 {
@@ -39,15 +39,15 @@ public class Config
             SptLauncherPath = Path.Combine(SPTdir, "SPT.Launcher.exe");
             GameProfilesPath = Path.Combine(SPTdir, "user", "profiles");
 
-            Logger.Debug("Detected SPT 4.1.6");
+            Logger.Debug(Loc.Tr("SPT 4.1.6 Detected"));
         }
         else
         {
             SptServerPath = Path.Combine(BaseDir, "SPT.Server.exe");
             SptLauncherPath = Path.Combine(BaseDir, "SPT.Launcher.exe");
-            GameProfilesPath = Path.Combine(BaseDir, "SPT_Runtime", "user", "profiles");
+            GameProfilesPath = Path.Combine(BaseDir, "user", "profiles");
 
-            Logger.Debug("SPT_Runtime directory not found, old version of SPT detected");
+            Logger.Debug(Loc.Tr("Detected pre 4.1.x version"));
         }
     }
 

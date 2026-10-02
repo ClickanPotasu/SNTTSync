@@ -1,7 +1,7 @@
 using System.Globalization;
 using System.Linq.Expressions;
 
-namespace FikaSync;
+namespace SNTTSync;
 
 public static class Loc
 {

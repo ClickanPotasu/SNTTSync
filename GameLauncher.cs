@@ -6,7 +6,7 @@ using Spectre.Console;
 using System.Text.Json.Nodes;
 using System.Text.Json;
 
-namespace FikaSync;
+namespace SNTTSync;
 
 public class GameLauncher
 {

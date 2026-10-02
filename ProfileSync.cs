@@ -4,7 +4,7 @@ using System.Text;
 using System.Text.Json.Nodes;
 using Spectre.Console;
 
-namespace FikaSync;
+namespace SNTTSync;
 
 public class ProfileSync
 {
@@ -33,7 +33,7 @@ public class ProfileSync
             try
             {
                 File.WriteAllText(ignorePath,
-                    "# FikaSync Ignore List\n" +
+                    "# SNTTSync Ignore List\n" +
                     "# Write the file names you want to ignore here (one per line).\n" +
                     "# Lines starting with # are comments.\n" +
                     "# Example:\n" +
