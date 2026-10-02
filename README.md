@@ -1,7 +1,9 @@
 # SNTT Sync
 
-### Orginal mod author [fanteeek](https://github.com/fanteeek)
-### Modification author [ClickanPotasu](https://github.com/ClickanPotasu)
+#### Orginal mod author [fanteeek](https://github.com/fanteeek)
+#### Modification author [ClickanPotasu](https://github.com/ClickanPotasu)
+
+
 
 ![C#](https://img.shields.io/badge/C%23-239120?logo=csharp&logoColor=white)
 ![.NET 9.0](https://img.shields.io/badge/.NET%209.0-512BD4?logo=dotnet&logoColor=white)
