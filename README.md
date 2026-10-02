@@ -65,5 +65,5 @@ If you want to modify the code or build it yourself:
 *   **"Unauthorized"**: Check your `.env` file and ensure your GitHub Token is valid and has `Contents: Read and Write` permissions.
 *   **Debug Mode**: Run the tool with the `-d` flag to see detailed logs about paths and connection:
     ```powershell
-    .\FikaSync.exe -d
+    .\SNTTSync.exe -d
     ```
