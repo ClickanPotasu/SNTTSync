@@ -1,16 +1,16 @@
 # SNTT Sync
 
-#### Orginal mod author [fanteeek](https://github.com/fanteeek)
-#### Modification author [ClickanPotasu](https://github.com/ClickanPotasu)
-
-
-
 ![C#](https://img.shields.io/badge/C%23-239120?logo=csharp&logoColor=white)
 ![.NET 9.0](https://img.shields.io/badge/.NET%209.0-512BD4?logo=dotnet&logoColor=white)
 ![Platform](https://img.shields.io/badge/Windows-0078D6?logo=windows&logoColor=white)
 ![License](https://img.shields.io/badge/License-MIT-yellow.svg)
 
 **SNTTSync** is an automated tool designed for the **Fika Project** (a multiplayer mod for **SPT Tushonka**). It allows you and your friends to seamlessly synchronize game profiles via a private GitHub repository.
+
+
+##### Orginal mod author [fanteeek](https://github.com/fanteeek)
+##### Modification author [ClickanPotasu](https://github.com/ClickanPotasu)
+
 
 ## Features
 
